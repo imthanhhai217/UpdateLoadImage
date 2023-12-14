@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "746382599694",
+    "firebase_url": "https://uploadimage-75741-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "uploadimage-75741",
+    "storage_bucket": "uploadimage-75741.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746382599694:android:ec5ca1bb9e346767f9fe5f",
+        "android_client_info": {
+          "package_name": "com.jaroidx.updateloadimage"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWTAfq8xKAbdqi2ESrgwSzvYdte2CSSSc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
