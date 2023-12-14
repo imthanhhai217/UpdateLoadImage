@@ -1,44 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".LoginActivity">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
 
-    <EditText
-        android:id="@+id/edtEmail"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/_16sdp"
-        android:hint="Email" />
+    <data>
 
-    <EditText
-        android:id="@+id/edtPassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/_16sdp"
-        android:hint="passcode"
-        android:inputType="number" />
+    </data>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:gravity="center"
-        android:orientation="horizontal">
+        android:orientation="vertical"
+        tools:context=".LoginActivity">
 
-        <Button
-            android:layout_width="@dimen/_100sdp"
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/_16sdp"
-            android:text="Login" />
+            android:layout_margin="@dimen/_16sdp"
+            android:hint="Email" />
 
-        <Button
-            android:id="@+id/btnRegister"
-            android:layout_width="@dimen/_100sdp"
+        <EditText
+            android:id="@+id/edtPassword"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/_16sdp"
-            android:text="Register" />
+            android:layout_margin="@dimen/_16sdp"
+            android:hint="passcode"
+            android:inputType="number" />
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_16sdp"
+                android:text="Login" />
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_16sdp"
+                android:text="Register" />
+
+        </LinearLayout>
     </LinearLayout>
-</LinearLayout>
+</layout>
